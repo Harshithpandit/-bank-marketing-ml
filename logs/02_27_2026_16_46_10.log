@@ -1,0 +1,20 @@
+[ 2026-02-27 16:46:10,716 ] 16 root - INFO - Pipeline started
+[ 2026-02-27 16:46:10,717 ] 20 root - INFO - Data ingestion started
+[ 2026-02-27 16:46:10,802 ] 26 root - INFO - Dataset read successfully
+[ 2026-02-27 16:46:10,952 ] 32 root - INFO - Raw data saved
+[ 2026-02-27 16:46:11,123 ] 43 root - INFO - Train and test data saved
+[ 2026-02-27 16:46:11,128 ] 23 root - INFO - Data ingestion completed
+[ 2026-02-27 16:46:11,238 ] 160 root - INFO - Train and test data loaded
+[ 2026-02-27 16:46:11,238 ] 27 root - INFO - Starting data cleaning
+[ 2026-02-27 16:46:11,322 ] 64 root - INFO - Data cleaning completed
+[ 2026-02-27 16:46:11,323 ] 27 root - INFO - Starting data cleaning
+[ 2026-02-27 16:46:11,343 ] 64 root - INFO - Data cleaning completed
+[ 2026-02-27 16:46:11,345 ] 78 root - INFO - Starting outlier treatment
+[ 2026-02-27 16:46:11,376 ] 94 root - INFO - Outlier treatment completed
+[ 2026-02-27 16:46:11,377 ] 78 root - INFO - Starting outlier treatment
+[ 2026-02-27 16:46:11,388 ] 94 root - INFO - Outlier treatment completed
+[ 2026-02-27 16:46:11,409 ] 119 root - INFO - Numerical columns: ['age', 'balance', 'day', 'campaign', 'pdays', 'previous']
+[ 2026-02-27 16:46:11,409 ] 120 root - INFO - Categorical columns: ['job', 'marital', 'education', 'default', 'housing', 'loan', 'contact', 'month', 'poutcome']
+[ 2026-02-27 16:46:11,411 ] 180 root - INFO - Applying preprocessing
+[ 2026-02-27 16:46:11,596 ] 195 root - INFO - Preprocessor saved
+[ 2026-02-27 16:46:11,602 ] 33 root - INFO - Data transformation completed

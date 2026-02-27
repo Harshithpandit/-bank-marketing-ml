@@ -1,0 +1,32 @@
+[ 2026-02-27 22:10:40,455 ] 17 root - INFO - Pipeline started
+[ 2026-02-27 22:10:40,455 ] 20 root - INFO - Data ingestion started
+[ 2026-02-27 22:10:40,536 ] 26 root - INFO - Dataset read successfully
+[ 2026-02-27 22:10:40,699 ] 32 root - INFO - Raw data saved
+[ 2026-02-27 22:10:40,881 ] 43 root - INFO - Train and test data saved
+[ 2026-02-27 22:10:40,994 ] 160 root - INFO - Train and test data loaded
+[ 2026-02-27 22:10:40,995 ] 27 root - INFO - Starting data cleaning
+[ 2026-02-27 22:10:41,059 ] 64 root - INFO - Data cleaning completed
+[ 2026-02-27 22:10:41,060 ] 27 root - INFO - Starting data cleaning
+[ 2026-02-27 22:10:41,079 ] 64 root - INFO - Data cleaning completed
+[ 2026-02-27 22:10:41,080 ] 78 root - INFO - Starting outlier treatment
+[ 2026-02-27 22:10:41,097 ] 94 root - INFO - Outlier treatment completed
+[ 2026-02-27 22:10:41,098 ] 78 root - INFO - Starting outlier treatment
+[ 2026-02-27 22:10:41,110 ] 94 root - INFO - Outlier treatment completed
+[ 2026-02-27 22:10:41,128 ] 119 root - INFO - Numerical columns: ['age', 'balance', 'day', 'campaign', 'pdays', 'previous']
+[ 2026-02-27 22:10:41,128 ] 120 root - INFO - Categorical columns: ['job', 'marital', 'education', 'default', 'housing', 'loan', 'contact', 'month', 'poutcome']
+[ 2026-02-27 22:10:41,129 ] 180 root - INFO - Applying preprocessing
+[ 2026-02-27 22:10:41,323 ] 195 root - INFO - Preprocessor saved
+[ 2026-02-27 22:10:41,328 ] 57 root - INFO - Splitting train and test arrays
+[ 2026-02-27 22:10:41,335 ] 77 root - INFO - Target converted to numeric
+[ 2026-02-27 22:10:41,335 ] 80 root - INFO - Applying SMOTE
+[ 2026-02-27 22:10:41,689 ] 89 root - INFO - SMOTE applied successfully
+[ 2026-02-27 22:10:41,689 ] 128 root - INFO - Training Logistic Regression
+[ 2026-02-27 22:10:41,886 ] 142 root - INFO - Logistic Regression \u2192 Accuracy: 0.7433, F1: 0.3558, ROC-AUC: 0.7330
+[ 2026-02-27 22:10:41,886 ] 128 root - INFO - Training Random Forest
+[ 2026-02-27 22:10:58,987 ] 142 root - INFO - Random Forest \u2192 Accuracy: 0.8416, F1: 0.4083, ROC-AUC: 0.7459
+[ 2026-02-27 22:10:58,987 ] 128 root - INFO - Training XGBoost
+[ 2026-02-27 22:11:01,506 ] 142 root - INFO - XGBoost \u2192 Accuracy: 0.8840, F1: 0.4043, ROC-AUC: 0.7627
+[ 2026-02-27 22:11:01,507 ] 153 root - INFO - Best model selected: XGBoost
+[ 2026-02-27 22:11:01,508 ] 154 root - INFO - Best ROC-AUC Score: 0.7627
+[ 2026-02-27 22:11:01,520 ] 162 root - INFO - Model saved successfully
+[ 2026-02-27 22:11:01,533 ] 37 root - INFO - Model training completed

@@ -1,0 +1,6 @@
+[ 2026-02-27 22:18:25,472 ] 37 root - INFO - Loading preprocessor and model
+[ 2026-02-27 22:18:25,472 ] 22 root - INFO - Loading object from artifacts\model.pkl
+[ 2026-02-27 22:18:26,617 ] 22 root - INFO - Loading object from artifacts\preprocessor.pkl
+[ 2026-02-27 22:18:26,626 ] 43 root - INFO - Applying preprocessing
+[ 2026-02-27 22:18:26,677 ] 47 root - INFO - Making prediction
+[ 2026-02-27 22:18:26,715 ] 57 root - INFO - Prediction completed

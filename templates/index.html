@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bank Marketing Prediction</title>
+</head>
+<body>
+
+<h2>Bank Subscription Prediction</h2>
+
+<form action="/predict_form" method="post">
+
+Age: <input type="number" name="age"><br><br>
+
+Job:
+<select name="job">
+<option value="management">Management</option>
+<option value="technician">Technician</option>
+<option value="entrepreneur">Entrepreneur</option>
+<option value="services">Services</option>
+</select><br><br>
+
+Marital:
+<select name="marital">
+<option value="married">Married</option>
+<option value="single">Single</option>
+<option value="divorced">Divorced</option>
+</select><br><br>
+
+Education:
+<select name="education">
+<option value="primary">Primary</option>
+<option value="secondary">Secondary</option>
+<option value="tertiary">Tertiary</option>
+</select><br><br>
+
+Balance: <input type="number" name="balance"><br><br>
+
+Housing:
+<select name="housing">
+<option value="yes">Yes</option>
+<option value="no">No</option>
+</select><br><br>
+
+Loan:
+<select name="loan">
+<option value="yes">Yes</option>
+<option value="no">No</option>
+</select><br><br>
+
+Day: <input type="number" name="day"><br><br>
+
+Month:
+<select name="month">
+<option value="may">May</option>
+<option value="jun">June</option>
+<option value="jul">July</option>
+</select><br><br>
+
+Campaign: <input type="number" name="campaign"><br><br>
+
+Pdays: <input type="number" name="pdays"><br><br>
+
+Previous: <input type="number" name="previous"><br><br>
+
+Contact:
+<select name="contact">
+<option value="cellular">Cellular</option>
+<option value="telephone">Telephone</option>
+</select><br><br>
+
+Poutcome:
+<select name="poutcome">
+<option value="unknown">Unknown</option>
+<option value="success">Success</option>
+<option value="failure">Failure</option>
+</select><br><br>
+
+<input type="submit" value="Predict">
+
+</form>
+
+<h3>{{ prediction }}</h3>
+
+</body>
+</html>

@@ -1,0 +1,26 @@
+[ 2026-02-27 22:06:00,870 ] 17 root - INFO - Pipeline started
+[ 2026-02-27 22:06:00,870 ] 20 root - INFO - Data ingestion started
+[ 2026-02-27 22:06:00,966 ] 26 root - INFO - Dataset read successfully
+[ 2026-02-27 22:06:01,118 ] 32 root - INFO - Raw data saved
+[ 2026-02-27 22:06:01,316 ] 43 root - INFO - Train and test data saved
+[ 2026-02-27 22:06:01,476 ] 160 root - INFO - Train and test data loaded
+[ 2026-02-27 22:06:01,478 ] 27 root - INFO - Starting data cleaning
+[ 2026-02-27 22:06:01,547 ] 64 root - INFO - Data cleaning completed
+[ 2026-02-27 22:06:01,547 ] 27 root - INFO - Starting data cleaning
+[ 2026-02-27 22:06:01,571 ] 64 root - INFO - Data cleaning completed
+[ 2026-02-27 22:06:01,571 ] 78 root - INFO - Starting outlier treatment
+[ 2026-02-27 22:06:01,600 ] 94 root - INFO - Outlier treatment completed
+[ 2026-02-27 22:06:01,601 ] 78 root - INFO - Starting outlier treatment
+[ 2026-02-27 22:06:01,629 ] 94 root - INFO - Outlier treatment completed
+[ 2026-02-27 22:06:01,654 ] 119 root - INFO - Numerical columns: ['age', 'balance', 'day', 'campaign', 'pdays', 'previous']
+[ 2026-02-27 22:06:01,654 ] 120 root - INFO - Categorical columns: ['job', 'marital', 'education', 'default', 'housing', 'loan', 'contact', 'month', 'poutcome']
+[ 2026-02-27 22:06:01,658 ] 180 root - INFO - Applying preprocessing
+[ 2026-02-27 22:06:01,970 ] 195 root - INFO - Preprocessor saved
+[ 2026-02-27 22:06:01,979 ] 61 root - INFO - Splitting train and test arrays
+[ 2026-02-27 22:06:01,980 ] 77 root - INFO - Applying SMOTE
+[ 2026-02-27 22:06:02,554 ] 86 root - INFO - SMOTE applied successfully
+[ 2026-02-27 22:06:02,554 ] 124 root - INFO - Training Logistic Regression
+[ 2026-02-27 22:06:02,880 ] 138 root - INFO - Logistic Regression \u2192 Accuracy: 0.7433, F1: 0.3558, ROC-AUC: 0.7330
+[ 2026-02-27 22:06:02,881 ] 124 root - INFO - Training Random Forest
+[ 2026-02-27 22:06:21,970 ] 138 root - INFO - Random Forest \u2192 Accuracy: 0.8416, F1: 0.4083, ROC-AUC: 0.7459
+[ 2026-02-27 22:06:21,970 ] 124 root - INFO - Training XGBoost

@@ -1,0 +1,22 @@
+[ 2026-02-27 16:54:24,483 ] 17 root - INFO - Pipeline started
+[ 2026-02-27 16:54:24,484 ] 20 root - INFO - Data ingestion started
+[ 2026-02-27 16:54:24,570 ] 26 root - INFO - Dataset read successfully
+[ 2026-02-27 16:54:24,747 ] 32 root - INFO - Raw data saved
+[ 2026-02-27 16:54:24,912 ] 43 root - INFO - Train and test data saved
+[ 2026-02-27 16:54:25,025 ] 160 root - INFO - Train and test data loaded
+[ 2026-02-27 16:54:25,026 ] 27 root - INFO - Starting data cleaning
+[ 2026-02-27 16:54:25,119 ] 64 root - INFO - Data cleaning completed
+[ 2026-02-27 16:54:25,119 ] 27 root - INFO - Starting data cleaning
+[ 2026-02-27 16:54:25,154 ] 64 root - INFO - Data cleaning completed
+[ 2026-02-27 16:54:25,155 ] 78 root - INFO - Starting outlier treatment
+[ 2026-02-27 16:54:25,177 ] 94 root - INFO - Outlier treatment completed
+[ 2026-02-27 16:54:25,177 ] 78 root - INFO - Starting outlier treatment
+[ 2026-02-27 16:54:25,190 ] 94 root - INFO - Outlier treatment completed
+[ 2026-02-27 16:54:25,208 ] 119 root - INFO - Numerical columns: ['age', 'balance', 'day', 'campaign', 'pdays', 'previous']
+[ 2026-02-27 16:54:25,209 ] 120 root - INFO - Categorical columns: ['job', 'marital', 'education', 'default', 'housing', 'loan', 'contact', 'month', 'poutcome']
+[ 2026-02-27 16:54:25,210 ] 180 root - INFO - Applying preprocessing
+[ 2026-02-27 16:54:25,401 ] 195 root - INFO - Preprocessor saved
+[ 2026-02-27 16:54:25,409 ] 46 root - INFO - Splitting train and test arrays
+[ 2026-02-27 16:54:25,410 ] 65 root - INFO - Applying SMOTE
+[ 2026-02-27 16:54:26,147 ] 74 root - INFO - SMOTE applied successfully
+[ 2026-02-27 16:54:26,147 ] 112 root - INFO - Training Logistic Regression

@@ -1,0 +1,6 @@
+[ 2026-02-27 16:43:26,004 ] 17 root - INFO - Pipeline started
+[ 2026-02-27 16:43:26,005 ] 20 root - INFO - Data ingestion started
+[ 2026-02-27 16:43:26,105 ] 26 root - INFO - Dataset read successfully
+[ 2026-02-27 16:43:26,262 ] 32 root - INFO - Raw data saved
+[ 2026-02-27 16:43:26,431 ] 43 root - INFO - Train and test data saved
+[ 2026-02-27 16:43:26,434 ] 23 root - INFO - Data ingestion completed
