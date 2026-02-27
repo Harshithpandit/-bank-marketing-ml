@@ -2,3 +2,23 @@
 [ 2026-02-27 23:01:23,521 ] 97 werkzeug - INFO -  * Debugger PIN: 435-368-244
 [ 2026-02-27 23:01:23,855 ] 97 werkzeug - WARNING -  * Debugger is active!
 [ 2026-02-27 23:01:23,857 ] 97 werkzeug - INFO -  * Debugger PIN: 435-368-244
+[ 2026-02-27 23:16:09,737 ] 97 werkzeug - INFO -  * Detected change in 'C:\\Users\\harsh\\OneDrive\\Desktop\\bank_marketing_end to end\\src\\components\\data_ingestion.py', reloading
+[ 2026-02-27 23:16:09,740 ] 97 werkzeug - INFO -  * Detected change in 'C:\\Users\\harsh\\OneDrive\\Desktop\\bank_marketing_end to end\\src\\components\\data_transformation.py', reloading
+[ 2026-02-27 23:16:09,743 ] 97 werkzeug - INFO -  * Detected change in 'C:\\Users\\harsh\\OneDrive\\Desktop\\bank_marketing_end to end\\src\\components\\data_ingestion.py', reloading
+[ 2026-02-27 23:16:09,744 ] 97 werkzeug - INFO -  * Detected change in 'C:\\Users\\harsh\\OneDrive\\Desktop\\bank_marketing_end to end\\src\\components\\main.py', reloading
+[ 2026-02-27 23:16:09,747 ] 97 werkzeug - INFO -  * Detected change in 'C:\\Users\\harsh\\OneDrive\\Desktop\\bank_marketing_end to end\\src\\components\\data_transformation.py', reloading
+[ 2026-02-27 23:16:09,748 ] 97 werkzeug - INFO -  * Detected change in 'C:\\Users\\harsh\\OneDrive\\Desktop\\bank_marketing_end to end\\src\\components\\model_trainer.py', reloading
+[ 2026-02-27 23:16:09,751 ] 97 werkzeug - INFO -  * Detected change in 'C:\\Users\\harsh\\OneDrive\\Desktop\\bank_marketing_end to end\\src\\components\\main.py', reloading
+[ 2026-02-27 23:16:09,752 ] 97 werkzeug - INFO -  * Detected change in 'C:\\Users\\harsh\\OneDrive\\Desktop\\bank_marketing_end to end\\src\\exception.py', reloading
+[ 2026-02-27 23:16:09,755 ] 97 werkzeug - INFO -  * Detected change in 'C:\\Users\\harsh\\OneDrive\\Desktop\\bank_marketing_end to end\\src\\components\\model_trainer.py', reloading
+[ 2026-02-27 23:16:09,757 ] 97 werkzeug - INFO -  * Detected change in 'C:\\Users\\harsh\\OneDrive\\Desktop\\bank_marketing_end to end\\src\\logger.py', reloading
+[ 2026-02-27 23:16:09,759 ] 97 werkzeug - INFO -  * Detected change in 'C:\\Users\\harsh\\OneDrive\\Desktop\\bank_marketing_end to end\\src\\exception.py', reloading
+[ 2026-02-27 23:16:09,763 ] 97 werkzeug - INFO -  * Detected change in 'C:\\Users\\harsh\\OneDrive\\Desktop\\bank_marketing_end to end\\src\\logger.py', reloading
+[ 2026-02-27 23:16:09,770 ] 97 werkzeug - INFO -  * Detected change in 'C:\\Users\\harsh\\OneDrive\\Desktop\\bank_marketing_end to end\\src\\pipeline\\predict_pipeline.py', reloading
+[ 2026-02-27 23:16:09,773 ] 97 werkzeug - INFO -  * Detected change in 'C:\\Users\\harsh\\OneDrive\\Desktop\\bank_marketing_end to end\\src\\pipeline\\train_pipeline.py', reloading
+[ 2026-02-27 23:16:09,776 ] 97 werkzeug - INFO -  * Detected change in 'C:\\Users\\harsh\\OneDrive\\Desktop\\bank_marketing_end to end\\src\\pipeline\\predict_pipeline.py', reloading
+[ 2026-02-27 23:16:09,778 ] 97 werkzeug - INFO -  * Detected change in 'C:\\Users\\harsh\\OneDrive\\Desktop\\bank_marketing_end to end\\src\\utils.py', reloading
+[ 2026-02-27 23:16:09,779 ] 97 werkzeug - INFO -  * Detected change in 'C:\\Users\\harsh\\OneDrive\\Desktop\\bank_marketing_end to end\\src\\pipeline\\train_pipeline.py', reloading
+[ 2026-02-27 23:16:09,782 ] 97 werkzeug - INFO -  * Detected change in 'C:\\Users\\harsh\\OneDrive\\Desktop\\bank_marketing_end to end\\src\\utils.py', reloading
+[ 2026-02-27 23:16:09,784 ] 97 werkzeug - INFO -  * Detected change in 'C:\\Users\\harsh\\OneDrive\\Desktop\\bank_marketing_end to end\\test_prediction.py', reloading
+[ 2026-02-27 23:16:09,789 ] 97 werkzeug - INFO -  * Detected change in 'C:\\Users\\harsh\\OneDrive\\Desktop\\bank_marketing_end to end\\test_prediction.py', reloading
